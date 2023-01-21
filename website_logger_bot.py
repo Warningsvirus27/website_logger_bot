@@ -22,7 +22,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # reading the file
 data = []
-file = "C:\\Users\\anils\\Downloads\\test.txt"
+file = "test.txt"
 main_file = open(file, 'r')
 for line in main_file:
     data.append(line.split(','))
